@@ -67,7 +67,7 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
    - Path : InLogic.Web/src/environments/environment.ts
    - `X-API-KEY: 1234`
    - `apiUrl: https://localhost:7189/api/`
-   - ![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/0d837417-9995-42d4-9786-0b2f0e9b417d)
+   - ![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/0d837417-9995-42d4-9786-0b2f0e9b417d)
 8. open the InLogic.sln
    - Visual Studio 2022 IDE
       - opening the solution will restore the nuget and npm packages build the solution
@@ -83,8 +83,8 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
 
 ## Soltion Explorer
 
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/6ec2b17f-bd16-4073-bad8-2a12acba5541)
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/1bbb2938-0b58-4f2a-bf81-311e9a44c2ed)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/6ec2b17f-bd16-4073-bad8-2a12acba5541)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/1bbb2938-0b58-4f2a-bf81-311e9a44c2ed)
 
 
 ## Launch URL's
@@ -101,14 +101,14 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
 ### API Documentation
 
 #### Swagger UI
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/ea5b9a21-f50d-4e2f-9b48-98c4d25438c9)
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/7e999d24-0b86-43e4-9c99-c6eeb1984176)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/ea5b9a21-f50d-4e2f-9b48-98c4d25438c9)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/7e999d24-0b86-43e4-9c99-c6eeb1984176)
 #### Authorization
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/9846a1ed-60b7-4047-93a3-fa107a55e555)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/9846a1ed-60b7-4047-93a3-fa107a55e555)
 #### API Endpoint and Request Body
 
 **Screenshots**
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/b9d563e6-5f57-4825-a515-bda8d9ce0947)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/b9d563e6-5f57-4825-a515-bda8d9ce0947)
 
 **EndPoint**
 ```csharp
@@ -125,8 +125,8 @@ POST /api/Users/Register
 }
 ```
 #### Response
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/e3b2e624-8415-4d17-ab47-a2eec41aa874)
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/400c99a2-845a-48be-8f87-205c4c362d10)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/e3b2e624-8415-4d17-ab47-a2eec41aa874)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/400c99a2-845a-48be-8f87-205c4c362d10)
 
 **200**
 ```csharp
@@ -163,7 +163,7 @@ POST /api/Users/Register
 #### Schemas
 
 **Screenshots**
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/fd162f0c-4da2-49c1-8d64-c7dec6c9f9d9)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/fd162f0c-4da2-49c1-8d64-c7dec6c9f9d9)
 
 **ProblemDetails**
 ```csharp
@@ -201,11 +201,11 @@ id	string($uuid)
 ```
 ## Web
 #### Registration
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/a88676d2-f126-4e6c-961f-6db677f75b2a)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/a88676d2-f126-4e6c-961f-6db677f75b2a)
 #### 403 Forbidden
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/c23151df-2ed9-4169-b258-858396e020ed)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/c23151df-2ed9-4169-b258-858396e020ed)
 
 ## Unit Testing
 InLogic.Tests
-![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/4cff0d77-5214-4221-a271-ed5f1f53fc39)
+![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/4cff0d77-5214-4221-a271-ed5f1f53fc39)
 
