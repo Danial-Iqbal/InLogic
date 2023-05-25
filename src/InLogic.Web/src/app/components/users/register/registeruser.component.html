@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1 ">
+          <h3 class="mb-3 text-center">Registration</h3>
+          <form [formGroup]="form" (ngSubmit)="onSubmit()" class="my-form">
+              <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" formControlName="name" class="form-control" (blur)="form.get('name')?.markAsTouched()">
+              <div *ngIf="form.get('name')?.errors && form.get('name')?.touched" class="error-message">
+                  <ng-container *ngFor="let error of getErrorMessages('name')">
+                  <span class="error-text">{{ error }}</span>
+                  </ng-container>
+              </div>
+              </div>
+              <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" formControlName="email" class="form-control" (blur)="form.get('email')?.markAsTouched()">
+              <div *ngIf="form.get('email')?.errors && form.get('email')?.touched" class="error-message">
+                  <ng-container *ngFor="let error of getErrorMessages('email')">
+                  <span class="error-text">{{ error }}</span>
+                  </ng-container>
+              </div>
+              </div>
+  
+              <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" formControlName="password" class="form-control" (blur)="form.get('password')?.markAsTouched()">
+              <div *ngIf="form.get('password')?.errors && form.get('password')?.touched" class="error-message">
+                  <ng-container *ngFor="let error of getErrorMessages('password')">
+                  <span class="error-text">{{ error }}</span>
+                  </ng-container>
+              </div>
+              </div>
+  
+              <div class="form-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <input type="password" formControlName="confirmPassword" class="form-control" (blur)="form.get('confirmPassword')?.markAsTouched()">
+              <div *ngIf="form.get('confirmPassword')?.errors && form.get('confirmPassword')?.touched" class="error-message">
+                  <ng-container *ngFor="let error of getErrorMessages('confirmPassword')">
+                  <span class="error-text">{{ error }}</span>
+                  </ng-container>
+              </div>
+              </div>
+  
+              <button type="submit" class="btn btn-primary full-width-button">
+                  <span *ngIf="spinner ==false">Submit</span> 
+                  <i *ngIf="spinner ==true" class='fa fa-spinner fa-spin btn-spinner'></i>
+              </button>
+              <div *ngFor="let alert of alerts" class="mt-1">
+                  <alert [type]="alert.type" [dismissOnTimeout]="alert.timeout" (onClosed)="onClosed(alert)">{{ alert.msg }}</alert>
+              </div>
+  
+          </form>
+      </div>
+    </div>
+  </div>
+  
