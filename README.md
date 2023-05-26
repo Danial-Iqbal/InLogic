@@ -20,7 +20,7 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
 - [Microsoft Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - [EntityFramwork Core](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)
 - [Code First Approach](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)
-- [API KEY Authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-7.0)
+- [API KEY Authentication](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-7.0)
 - [Dependency Injection](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0)
 - [XUnit](https://xunit.net/)
 - [Fluent Assertions](https://fluentassertions.com/)
