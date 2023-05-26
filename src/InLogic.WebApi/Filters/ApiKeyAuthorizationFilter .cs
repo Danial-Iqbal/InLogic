@@ -26,15 +26,25 @@ namespace InLogic.WebApi.Filters
     {
         #region Fields
 
+        private readonly string _straceId;
+
+        private readonly string _className;
+
+        private readonly ILogger<ApiKeyAuthorizationFilter> _logger;
+
         private readonly IApiKeyValidatorService _apiKeyValidatorService;
 
         #endregion
 
         #region Ctor
 
-        public ApiKeyAuthorizationFilter(IApiKeyValidatorService apiKeyValidatorService)
+        public ApiKeyAuthorizationFilter(IApiKeyValidatorService apiKeyValidatorService, ILogger<ApiKeyAuthorizationFilter> logger)
         {
+            _straceId = Guid.NewGuid().ToString();
+            _className = nameof(ApiKeyAuthorizationFilter);
+            _logger = logger;
             _apiKeyValidatorService = apiKeyValidatorService;
+            _logger.LogInformation($"Trace Id - {_straceId}, UTC - {DateTime.UtcNow.ToLongDateString()} : ctor {_className}");
         }
 
         #endregion
@@ -49,6 +59,9 @@ namespace InLogic.WebApi.Filters
         /// <param name="context">Authorization filter context</param>
         public void OnAuthorization(AuthorizationFilterContext context)
         {
+            // log information
+            _logger.LogInformation($"Trace Id - {_straceId}, UTC - {DateTime.UtcNow.ToLongDateString()} : {_className} OnAuthorization started");
+
             // read api key from header
             var apiKey = context.HttpContext.Request.Headers[ApplicationConstants.ApiKeyHeaderName];
 
@@ -58,6 +71,9 @@ namespace InLogic.WebApi.Filters
                 // unauthorized result
                 context.Result = new UnauthorizedResult();
             }
+
+            // log information
+            _logger.LogInformation($"Trace Id - {_straceId}, UTC - {DateTime.UtcNow.ToLongDateString()} : {_className} OnAuthorization ended");
         }
 
         #endregion
