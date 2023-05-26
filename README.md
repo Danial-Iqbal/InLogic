@@ -57,18 +57,22 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
   `
 4. X-API-KEY in launchSettings.json
    - Path : InLogic.WebApi/Properties/launchSettings.json
-   - `"X-API-KEY":"1234"`
-6. cd to folder InLogic\InLogic.Web
+   - `"X-API-KEY":"abcdef12345"`
+5. launchSettings.json
+   - ![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/83219faa-aa54-419b-988f-62ee86d0d6c1)
+6. appSettings.json
+   - ![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/fbc871ad-5090-4787-8194-bdf5bd8981b5)
+7. cd to folder InLogic\InLogic.Web
    - code .
    - open terminal
    - `npm install`
    - `ng serve`
-7. environment.ts in InLogic\InLogic.Web
+8. environment.ts in InLogic\InLogic.Web
    - Path : InLogic.Web/src/environments/environment.ts
-   - `X-API-KEY: 1234`
+   - `X-API-KEY: abcdef12345`
    - `apiUrl: https://localhost:7189/api/`
-   - ![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/0d837417-9995-42d4-9786-0b2f0e9b417d)
-8. open the InLogic.sln
+   - ![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/163d95b2-1479-47d6-88df-e3beccb4a230)
+9. open the InLogic.sln
    - Visual Studio 2022 IDE
       - opening the solution will restore the nuget and npm packages build the solution
       - Multiple Projects Startup `InLogic.WebApi` and `InLogic.Web`
@@ -76,10 +80,10 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
      - Open the folder `InLogic.Web`
      - Build the Solution
      - Run the Projects `InLogic.WebApi` and `InLogic.Web`
- 6. Application URL's
+ 9. Application URL's
      - `Webapi https://localhost:7189 `
      - `AngularWeb http://localhost:4200`
- 7. InLogic.Tests (Unit Tests) 
+ 10. InLogic.Tests (Unit Tests) 
 
 ## Soltion Explorer
 
