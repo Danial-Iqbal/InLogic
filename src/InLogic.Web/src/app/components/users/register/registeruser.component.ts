@@ -1,11 +1,11 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit} from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { UsersService } from 'src/app/_services/users.service';
 import {Router, ActivatedRoute} from '@angular/router';
 import { HttpErrorResponse } from '@angular/common/http';
 import {SubSink} from 'subsink';  
 import { PasswordRegix, passwordMatchValidator } from 'src/app/_core/common';
-import { Alert } from 'src/app/_models/alert.mode.';
+import { Alert } from 'src/app/_models/alert.mode.';  
 
 @Component({
   selector: 'app-registeruser',
@@ -15,9 +15,10 @@ import { Alert } from 'src/app/_models/alert.mode.';
 export class RegisteruserComponent implements OnInit, OnDestroy{
 
   subs = new SubSink();  
-  form!: FormGroup
-  alerts: Alert[] = []
-  spinner:boolean = false
+  form!: FormGroup;
+  alerts: Alert[] = [];
+  spinner:boolean = false; 
+
   constructor(
     private formBuilder: FormBuilder,
     private router: Router,
@@ -122,4 +123,5 @@ export class RegisteruserComponent implements OnInit, OnDestroy{
   onReset(){
     this.form.reset();
   }
+  
 }
