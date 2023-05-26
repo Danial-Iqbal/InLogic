@@ -18,7 +18,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ConnectionStrings:DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=InLogic;Trusted_Connection=True;MultipleActiveResultSets=true",
-        "X-API-KEY":  "1234" 
+        "X-API-KEY": "abcdef12345"
       }
     },
     "https": {
@@ -30,7 +30,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ConnectionStrings:DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=InLogic;Trusted_Connection=True;MultipleActiveResultSets=true",
-        "X-API-KEY": "1234"
+        "X-API-KEY": "abcdef12345"
       }
     },
     "IIS Express": {
@@ -40,7 +40,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ConnectionStrings:DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=InLogic;Trusted_Connection=True;MultipleActiveResultSets=true",
-        "X-API-KEY": "1234"
+        "X-API-KEY": "abcdef12345"
       }
     }
   }
