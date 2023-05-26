@@ -19,7 +19,7 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
 - [Problem Details](https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0)
 - [Microsoft Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - [EntityFramwork Core](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)
-- [Code First](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)
+- [Code First Approach](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)
 - [API KEY Authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-7.0)
 - [Dependency Injection](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0)
 - [XUnit](https://xunit.net/)
@@ -27,10 +27,10 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
 
 ## Pre-requisites
 1. [.Net core 7 SDK](https://www.microsoft.com/net/core#windows)
-2. [Visual studio 2022](https://www.visualstudio.com/) OR [VSCode](https://code.visualstudio.com/)
+2. [Visual studio 2022](https://www.visualstudio.com/)
 3. [VSCode](https://code.visualstudio.com/)
 4. [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
-5. [NodeJs](https://nodejs.org/en/) (Latest LTS)
+5. [NodeJs](https://nodejs.org/en/) (Latest)
 6. [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
 7. [XUnit](https://xunit.net/)
 
@@ -208,4 +208,16 @@ id	string($uuid)
 ## Unit Testing
 InLogic.Tests
 ![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/4cff0d77-5214-4221-a271-ed5f1f53fc39)
+
+## MS SQL SERVER
+
+#### Connection
+![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/6cd73f2e-5e62-4c88-b615-4183f91b9a21)
+
+#### Structure
+![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/587185b2-88cb-492a-831c-d6179317778a)
+
+#### Result Set
+![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/3260b2d2-d3f3-40b7-9bab-40ab37ba1259)
+
 
