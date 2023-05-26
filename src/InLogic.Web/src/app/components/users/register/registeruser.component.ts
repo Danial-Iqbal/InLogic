@@ -101,7 +101,7 @@ export class RegisteruserComponent implements OnInit, OnDestroy{
           }, 4000);
         },
         error: (err: HttpErrorResponse) => {
-          this.spinner = false
+          this.spinner = false;
           this.setAlert(err.error.title, 'danger');
         }
       })
