@@ -41,7 +41,7 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
    - Automatic Run 
        - Automatically executed on the Run of InLogic.WebApi.              
    - **OR**
-   - Manual Run (optional)
+   - Manual Run **(optional)**
        - Open Package Manager Console
        - Set Default Project InLogic.Data
           ![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/73df1335-74c9-4861-8202-3ff4479d2076)
