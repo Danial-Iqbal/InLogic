@@ -44,11 +44,11 @@ InLogic Application Design from Scratch using Dotnet Core 7 WebApi and Angular 1
    - Manual Run (optional)
        - Open Package Manager Console
        - Set Default Project InLogic.Data
-          ![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/73df1335-74c9-4861-8202-3ff4479d2076)
+          ![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/73df1335-74c9-4861-8202-3ff4479d2076)
        - Set Startup Project InLogic.WebApi
-          ![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/6af91109-8e8f-4786-acd0-04de1fe55447)
+          ![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/6af91109-8e8f-4786-acd0-04de1fe55447)
        - Run Command 'update-database' on package manager console
-          ![image](https://github.com/Danial-Iqbal/InLogic/assets/38452803/5cdf8354-7311-467a-a35e-65dce82dea6d)
+          ![image](https://github.com/Danial-Iqbal/InLogic2/assets/38452803/5cdf8354-7311-467a-a35e-65dce82dea6d)
 3. Database connectionstring in launchSettings.json 
    - DefaultConnection is pointed to (LocalDB)
    - Path : InLogic.WebApi/Properties/launchSettings.json
